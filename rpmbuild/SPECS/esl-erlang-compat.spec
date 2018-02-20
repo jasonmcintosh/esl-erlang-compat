@@ -27,7 +27,7 @@ A shim (compatibility) package to allow esl-erlang to provide an erlang package 
 * Wed Aug 17 2016 Gabriele Santomaggio <g.santomaggio@gmail.com>
 - Updated to use 19.0 as minimum version
 
-* Wed Jul 5 2015 Jason McIntosh <mcintoshj@gmail.com>
+* Wed Jul 08 2015 Jason McIntosh <mcintoshj@gmail.com>
 - Updated to use 18.1 as minimum version
 
 %clean
