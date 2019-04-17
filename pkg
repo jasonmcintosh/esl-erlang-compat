@@ -1,0 +1,2 @@
+cd ~/
+rpmbuild -ba rpmbuild/SPECS/esl-erlang-compat.spec 

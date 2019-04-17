@@ -1,11 +1,11 @@
 Name: esl-erlang-compat
-Version: 20.2.2
+Version: %{getenv:VERSION}
 Release: 1
 Summary: A compat file to get esl-erlang to provide erlang
 URL:  https://github.com/jasonmcintosh/esl-erlang-compat
 License: MPLv1.1 and MIT and ASL 2.0 and BSD
 BuildArch: noarch
-Requires: esl-erlang >= 20.2.2
+Requires: esl-erlang >= %{getenv:VERSION}
 Provides: erlang
 BuildRoot: %{_tmppath}/%{name}-root
 
@@ -21,6 +21,9 @@ A shim (compatibility) package to allow esl-erlang to provide an erlang package 
 %files
 
 %changelog
+* Tue Feb 20 2018 Jason McIntosh <mcintoshj@gmail.com>
+- Updated to use environment variables for version and docker builder
+
 * Tue Feb 20 2018 Michael Klishin <michael@clojurewerkz.org>
 - Updated to use 20.2.2 as minimum version
 
